@@ -40,7 +40,8 @@
     "coffee-resque":          ">= 0.1.4",
     "coffee-script":          ">= 1.1.3",
     "mint":                   ">= 0.3.0",
-    "tower":                  ">= 0.3.0"
+    "tower":                  ">= 0.3.0",
+    "forever":                ">= 0.8.5"
   },
   "scripts": {
     "test":                   "mocha $(find test -name \"*Test.coffee\") -r coffee-script $@",
