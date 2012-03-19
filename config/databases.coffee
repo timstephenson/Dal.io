@@ -15,7 +15,7 @@ module.exports =
     production:
       name: "dalio-production"
       port: 27017
-      host: "127.0.0.1"
+      host: process.env.MONGOHQ_URL
     
   redis:
     development:
