@@ -13,7 +13,9 @@ module.exports =
       port: 27017
       host: "127.0.0.1"
     production:
-      uri: process.env.MONGOHQ_URL
+      name: "app3370426"
+      port: 10076
+      host: "mongodb://heroku:91de71b9ec1a0b2145c4f78ac9cc35fc@staff.mongohq.com"
     
   redis:
     development:
