@@ -1,0 +1,3 @@
+App.LinkHelper =
+  linkElements: ->
+    $(".undefined")
