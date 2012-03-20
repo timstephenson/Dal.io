@@ -33,9 +33,5 @@ combined/
 combine/
 
 node_modules
-public/assets/*.css
-public/assets/*.js
-public/javascripts/
-public/stylesheets/
 npm-debug.log
 tmp/
