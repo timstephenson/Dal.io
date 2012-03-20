@@ -13,10 +13,12 @@ module.exports =
       port: 27017
       host: "127.0.0.1"
     production:
-      name: "dalio-production"
-      port: 27017
-      host: ENV['MONGOHQ_URL']
-    
+      name: "app3370426"
+      port: 10076
+      host: "staff.mongohq.com"
+      username: "heroku"
+      password: "91de71b9ec1a0b2145c4f78ac9cc35fc"
+          
   redis:
     development:
       name: "dalio-development"
